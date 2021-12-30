@@ -143,7 +143,7 @@ public class Hangman {
 
     private static boolean printWordState(String word, List<Character> playerGuesses) {
         int correctCount = 0;
-        System.out.print("The word is : ");
+        System.out.print("The word is: ");
         for (int i = 0; i < word.length(); i++) {
             if (playerGuesses.contains(word.charAt(i))) {
                 System.out.print(word.charAt(i));
